@@ -13,6 +13,11 @@ namespace RomanKata
         [TestCase(10, "X")]
         [TestCase(17, "XVII")]
         [TestCase(30, "XXX")]
+        [TestCase(1111, "MCXI")]
+        [TestCase(2444, "MMCDXLIV")]
+        [TestCase(2555, "MMDLV")]
+        [TestCase(3888, "MMMDCCCLXXXVIII")]
+        [TestCase(3999, "MMMCMXCIX")]
         public void ConvertArabicNumber(int arabic, string roman)
         {
             Assert.AreEqual(roman, RomanConverter.From(arabic));

@@ -17,7 +17,16 @@ namespace RomanKata
         }
         private static readonly ArabicRoman[] simpleNumbers =
         {
+            new ArabicRoman(1000, "M"),
+            new ArabicRoman(900, "CM"),
+            new ArabicRoman(500, "D"),
+            new ArabicRoman(400, "CD"),
+            new ArabicRoman(100, "C"),
+            new ArabicRoman(90, "XC"),
+            new ArabicRoman(50, "L"),
+            new ArabicRoman(40, "XL"),
             new ArabicRoman(10, "X"),
+            new ArabicRoman(9, "IX"),
             new ArabicRoman(5, "V"),
             new ArabicRoman(4, "IV"),
             new ArabicRoman(1, "I"),
