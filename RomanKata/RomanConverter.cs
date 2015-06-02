@@ -5,8 +5,11 @@
         internal static string From(int arabic)
         {
             string roman = string.Empty;
-            if (arabic == 10)
-                return "X";
+            if (arabic >= 10)
+            {
+                roman += "X";
+                arabic -= 10;
+            }
             if (arabic >= 5)
             {
                 roman += "V";
