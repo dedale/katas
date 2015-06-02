@@ -19,6 +19,7 @@ namespace RomanKata
         {
             new ArabicRoman(10, "X"),
             new ArabicRoman(5, "V"),
+            new ArabicRoman(4, "IV"),
             new ArabicRoman(1, "I"),
         };
         internal static string From(int arabic)
