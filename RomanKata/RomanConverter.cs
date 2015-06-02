@@ -4,7 +4,9 @@
     {
         internal static string From(int arabic)
         {
-            return "I";
+            if (arabic == 1)
+                return "I";
+            return "II";
         }
     }
 }

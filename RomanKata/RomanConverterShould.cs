@@ -8,6 +8,10 @@ namespace RomanKata
         {
             Assert.AreEqual("I", RomanConverter.From(1));
         }
+        [Test] public void ConvertArabicTwo()
+        {
+            Assert.AreEqual("II", RomanConverter.From(2));
+        }
     }
 }
 
