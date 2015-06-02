@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Kata.cs" />
-    <Compile Include="Tests.cs" />
+    <Compile Include="RomanConverter.cs" />
+    <Compile Include="RomanConverterShould.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
