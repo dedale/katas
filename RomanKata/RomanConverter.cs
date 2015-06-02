@@ -25,7 +25,7 @@ namespace RomanKata
             string roman = string.Empty;
             foreach (var simple in simpleNumbers)
             {
-                if (arabic >= simple.Arabic)
+                while (arabic >= simple.Arabic)
                 {
                     roman += simple.Roman;
                     arabic -= simple.Arabic;

@@ -25,6 +25,7 @@ For example (guidelines not rules) :
 ## See also
 * [8thlight.com](http://blog.8thlight.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html)
 * [wikipedia](http://en.wikipedia.org/wiki/Transformation_Priority_Premise)
+* [codurance (Sandro Mancuso)](http://codurance.com/videos/)
 
 # Demo
 
