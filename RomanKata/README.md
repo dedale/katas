@@ -42,3 +42,6 @@ RomanKata
 * Do not start with exceptions
 * Prefer tests that improve the algo, help the algo evolve simply
 * Add enough tests to be confident
+
+# See also
+[Does TDD lead to good design?](http://codurance.com/2015/05/12/does-tdd-lead-to-good-design/) (codurance blog)
