@@ -7,6 +7,7 @@ namespace RomanKata
         [TestCase(1, "I")]
         [TestCase(2, "II")]
         [TestCase(3, "III")]
+        [TestCase(5, "V")]
         public void ConvertArabicNumber(int arabic, string roman)
         {
             Assert.AreEqual(roman, RomanConverter.From(arabic));
