@@ -21,3 +21,4 @@ namespace RomanKata
 // Ctrl-Shift B : build
 // Shift-Alt-F10 : choose & do action
 // Ctrl-R A : run all tests
+// Ctrl-K+C : comment
