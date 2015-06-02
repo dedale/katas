@@ -19,6 +19,7 @@ namespace RomanKata
         {
             new ArabicRoman(10, "X"),
             new ArabicRoman(5, "V"),
+            new ArabicRoman(1, "I"),
         };
         internal static string From(int arabic)
         {
@@ -31,8 +32,6 @@ namespace RomanKata
                     arabic -= simple.Arabic;
                 }
             }
-            for (int a = 1; a <= arabic; a++)
-                roman += "I";
             return roman;
         }
     }
