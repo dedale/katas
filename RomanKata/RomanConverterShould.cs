@@ -4,13 +4,12 @@ namespace RomanKata
     [TestFixture]
     class RomanConverterShould
     {
-        [Test] public void ConvertArabicOne()
+        [TestCase(1, "I")]
+        [TestCase(2, "II")]
+        [TestCase(3, "III")]
+        public void ConvertArabicNumber(int arabic, string roman)
         {
-            Assert.AreEqual("I", RomanConverter.From(1));
-        }
-        [Test] public void ConvertArabicTwo()
-        {
-            Assert.AreEqual("II", RomanConverter.From(2));
+            Assert.AreEqual(roman, RomanConverter.From(arabic));
         }
     }
 }

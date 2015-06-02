@@ -4,9 +4,10 @@
     {
         internal static string From(int arabic)
         {
-            if (arabic == 1)
-                return "I";
-            return "II";
+            string roman = string.Empty;
+            for (int a = 1; a <= arabic; a++)
+                roman += "I";
+            return roman;
         }
     }
 }
